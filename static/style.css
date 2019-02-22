@@ -1,0 +1,18 @@
+#editor textarea {
+    font-family: monospace;
+    width: 99%;
+}
+
+#error {
+    font-weight: bold;
+    color: red;
+}
+
+#errorOutput{
+    color: red;
+    font-family: monospace;
+}
+
+input#input {
+    display: none;
+}

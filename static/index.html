@@ -1,0 +1,21 @@
+<html>
+<head>
+    <title> Quick and Dirty Protobuf Editor </title>
+    <link rel="stylesheet" type="text/css" href="/s/style.css" />
+    <script type="text/javascript" src="/s/jquery.min.js"></script>
+    <script type="text/javascript" src="/s/main.js"></script>
+</head>
+<body>
+    <div id="controls">
+        <button onclick="loadFileClicked()">Load Data File</button> 
+        <button onclick="saveFileClicked()">Save Data File</button>
+        <input type="text" id="saveAs" placeholder="Save file as..." />
+    </div>
+    <div id="error"></div>
+    <div id="editor">
+        <textarea rows="30" cols="120" id="editarea"></textarea>
+    </div>
+    <div id="errorOutput"></div>
+    <input type="file" id="input" onchange="handleFileUpload(this.files)" />
+</body>
+</html>
