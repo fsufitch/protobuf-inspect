@@ -14,9 +14,7 @@ This tool requires a Docker volume where it can find the "root" of your
 `.proto` files. Use this command, replacing `<PROTO_ROOT>` with the
 absolute path to where your `.proto` files are found:
 
-    docker run --rm -p 8080:8080 \
-        -v <PROTO_ROOT>:/proto-root \
-        protobuf-inspect
+    docker run --rm -p 8080:8080 -v <PROTO_ROOT>:/proto-root protobuf-inspect
 
 You can then view the server at `http://localhost:8080`.
 
