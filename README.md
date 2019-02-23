@@ -2,7 +2,10 @@
 =====
 
 This is a simple web server for viewing/editing data files encoded using
-Google Protocol Buffers. Requires Docker.
+Google Protocol Buffers. Essentially a web interface wrapper around 
+`protoc --encode` and `protoc --decode`.
+
+Requires Docker.
 
 ### Build it
 
